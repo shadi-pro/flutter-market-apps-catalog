@@ -1,0 +1,21 @@
+│   main.dart
+│
+├───models
+│       country.dart
+│       weather.dart
+│
+├───pages
+│       country_info_page.dart
+│       country_page.dart
+│       home_page.dart
+│       weather_page.dart
+│
+├───services
+│       city_service.dart
+│       country_service.dart
+│       weather_service.dart
+│
+├───utils
+│       local_storage.dart
+│
+└───widgets

@@ -1,0 +1,34 @@
+│   firebase_options.dart
+│   main.dart
+│
+├───data
+│       products.dart
+│
+├───models
+│       product.dart
+│
+├───pages
+│       cart_page.dart
+│       checkout_page.dart
+│       confirmation_page.dart
+│       homepage.dart
+│       login_page.dart
+│       orders_page.dart
+│       product_details.dart
+│       register_page.dart
+│       settings_page.dart
+│       test_firestore.dart
+│       wishlist_page.dart
+│
+├───repositories
+│       cart_repository.dart
+│       product_repository.dart
+│
+├───utils
+│       app_colors.dart
+│       app_styles.dart
+│
+└───widgets
+        category_item.dart
+        product_card.dart
+        product_grid.dart

@@ -1,0 +1,21 @@
+│   firebase_options.dart
+│   main.dart
+│
+├───models
+│       task.dart
+│
+├───pages
+│       add_task_page.dart
+│       home_page.dart
+│       login_page.dart
+│       profile_page.dart
+│       task_detail_page.dart
+│
+├───services
+│       firestore_service.dart
+│
+├───utils
+│       app_colors.dart
+│
+└───widgets
+        task_card.dart

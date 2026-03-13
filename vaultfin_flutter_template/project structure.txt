@@ -1,0 +1,114 @@
+
+E:.
+│   main.dart
+│
+├───assets
+│   └───images
+├───core
+│   ├───config
+│   │       app_config.dart
+│   │
+│   ├───constants
+│   │       app_colors.dart
+│   │       app_texts.dart
+│   │
+│   ├───errors
+│   ├───localization
+│   │       app_translations.dart
+│   │       
+│   ├───models
+│   │       enums.dart
+│   │       goal_entity.dart
+│   │
+│   ├───network
+│   ├───security
+│   │       secure_storage_production.dart
+│   │       security_check.dart
+│   │       simple_encryption.dart
+│   │
+│   ├───usecases
+│   └───utils
+│           currency_manager.dart
+│           data_migrator.dart
+│           error_handler.dart
+│
+└───features
+    ├───alerts
+    │   └───presentation
+    │       ├───controllers
+    │       │       alert_controller.dart
+    │       │
+    │       └───pages
+    │               alerts_settings_page.dart
+    │
+    ├───backup
+    │   └───presentation
+    │       ├───controllers
+    │       │       backup_controller.dart
+    │       │
+    │       └───pages
+    │               backup_page.dart
+    │
+    ├───expense
+    │   ├───data
+    │   │   ├───datasources
+    │   │   ├───models
+    │   │   └───repositories
+    │   ├───domain
+    │   │   ├───entities
+    │   │   │       expense_entity.dart
+    │   │   │
+    │   │   ├───repositories
+    │   │   └───usecases
+    │   └───presentation
+    │       ├───bindings
+    │       │       expense_binding.dart
+    │       │
+    │       ├───controllers
+    │       │       budget_controller.dart
+    │       │       expense_controller.dart
+    │       │
+    │       ├───pages
+    │       │       add_expense_page.dart
+    │       │       budget_page.dart
+    │       │       edit_expense_page.dart
+    │       │       home_page.dart
+    │       │       monthly_analysis_page.dart
+    │       │       reports_page.dart
+    │       │
+    │       └───widgets
+    │               currency_text.dart
+    │               simple_card.dart
+    │
+    ├───export
+    │   └───presentation
+    │           export_service.dart
+    │
+    ├───goals
+    │   └───presentation
+    │       ├───controllers
+    │       │       goal_controller.dart
+    │       │
+    │       ├───pages
+    │       │       add_edit_goal_page.dart
+    │       │       goals_list_page.dart
+    │       │       goal_details_page.dart
+    │       │       goal_stats_page.dart
+    │       │
+    │       └───widgets
+    │               contribution_list.dart
+    │               goal_card.dart
+    │               progress_chart.dart
+    │
+    ├───search
+    │   └───presentation
+    │       ├───controllers
+    │       │       expense_search_controller.dart
+    │       │
+    │       └───pages
+    │               filter_page.dart
+    │
+    └───settings
+        └───presentation
+            └───pages
+                    settings_page.dart

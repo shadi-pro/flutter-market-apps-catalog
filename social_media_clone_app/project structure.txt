@@ -1,0 +1,29 @@
+│   main.dart
+│
+├───core
+│   ├───providers
+│   │       post_provider.dart
+│   │       theme_provider.dart
+│   │
+│   └───theme
+│           app_colors.dart
+│           app_theme.dart
+│
+├───models
+│       post.dart
+│
+├───pages
+│       add_post_page.dart
+│       feed_page.dart
+│       login_page.dart
+│       notifications_page.dart
+│       profile_page.dart
+│       search_page.dart
+│       settings_page.dart
+│       signup_page.dart
+│       splash_page.dart
+│
+└───widgets
+        notification_item.dart
+        post_card.dart
+        profile_header.dart
