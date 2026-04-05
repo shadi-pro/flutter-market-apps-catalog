@@ -50,9 +50,11 @@ lib/
 │ ├── search/ # Search & filters
 │ └── settings/ # App settings
 │
-└── main.dart # Entry point
+└── main.dart 
+
 \`\`\`
 
+# Entry point
 ---
 
 ## 🧠 **Core Layer**
