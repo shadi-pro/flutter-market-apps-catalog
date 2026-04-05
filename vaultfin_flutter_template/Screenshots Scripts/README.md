@@ -27,6 +27,8 @@ For collaboration, licensing, or access to source code, please contact me direct
 ---
 
 ## 🌳 **Project Structure**
+\`\`\`
+
 lib/
 ├── core/
 │ ├── config/ # App configuration
@@ -49,6 +51,7 @@ lib/
 │ └── settings/ # App settings
 │
 └── main.dart # Entry point
+\`\`\`
 
 ---
 
